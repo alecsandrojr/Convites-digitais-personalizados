@@ -11,5 +11,12 @@ body {
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
-  
+    display: flex;
+    flex-direction: row; /* PC */
+/* 📱 Celular */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
 }
