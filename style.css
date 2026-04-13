@@ -1,22 +1,30 @@
 body {
   background-image: url("imagens/envelos34.jpg");
-  background-size: cover;        /* preenche toda a tela */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-position: center -100px; 
 }
 
+/* PC */
 .container {
-  height: 130vh;
+  height: 100vh;
   display: flex;
-  justify-content: center; /* horizontal */
-  align-items: center;     /* vertical */
-    display: flex;
-    flex-direction: row; /* PC */
-/* 📱 Celular */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
+
+/* 📱 CELULAR (fora da .container) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+/* imagem responsiva */
+img {
+  max-width: 100%;
+  height: auto;
 }
