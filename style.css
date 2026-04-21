@@ -1,31 +1,21 @@
-body {
+body{
+    background-image: url(imagens/fundo.jfif);
+  text-align: center;
+}
+
+.envelope{
  
-  background-image: url("imagens/envelos34.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 100%;
 }
 
-/* PC */
-.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-/* 📱 CELULAR (fora da .container) */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-  }
-}
-
-/* imagem responsiva */
-img {
-  max-width: 100%;
-  height: auto;
+.selo{
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+  top: 58%; 
+  right: 43%;  
 }
