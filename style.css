@@ -1,5 +1,5 @@
 body{
-    background-image: url(test/fundo.jfif);
+    background-image: url('test/fundo.jfif');
   text-align: center;
 }
 .topo{
@@ -15,14 +15,14 @@ body{
 
 .imagem-topo{
   position: absolute;
-  top: 0%;   /* Distância do topo */
-  left: -20%;  /* Distância da esquerda */
+  top: 0%;  
+  left: -20%;  
  
 }
 .imagem-topo2{
   position: absolute;
-  top: 0%;   /* Distância do topo */
-  left: 5%;  /* Distância da esquerda */
+  top: 0%;   
+  left: 5%;  
  
 }
 
