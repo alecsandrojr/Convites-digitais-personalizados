@@ -1,5 +1,5 @@
 body{
-    background-image: url('test/fundo.jfif');
+    background-image: url(test/fundo.jfif);
   text-align: center;
 }
 .topo{
@@ -26,29 +26,49 @@ body{
  
 }
 
-.envelope{
-  position: absolute;
-top: 25%;
-left: 10%;
 
+.container-envelope {
+  position: relative;
+  width: 90%;         
+  max-width: 340px;      
+  margin: 0 auto;        
 }
-.selo{
-  position: absolute;
-top: 57%;
-left: 40%;
+
+.envelope {
+  width: 100%;           
+  height: auto;          
+  display: block;
+}
+
+.selo {
+  position: absolute;  
+  width: 25%;          
+  height: auto;
+  top: 49%;              
+  left: 50%;
+                      
+  
+  transform: translate(-50%, -50%); 
 }
 
 .galho{
   position: absolute;
   transform: rotate(50deg);
-  top: 55%;
-  left: 0%;
+  top: 38%;
+  left: -10%;
+  
 }
 
 .galho2{
   position: absolute;
   transform: rotate(250deg);
-  top: 55%;
-  left: 70%;
+  top: 35%;
+  left: 80%;
+  
+}
+.fim{
+  position: absolute;
+  top: 50%;
+  left: 0%;
 }
 
