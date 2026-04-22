@@ -6,6 +6,7 @@ body{
   position: relative;
 
 }
+
 .imagem-fundo{
  display: block;
   width: 100%;
@@ -16,7 +17,7 @@ body{
 .imagem-topo{
   position: absolute;
   top: 0%;  
-  left: -20%;  
+  left: -20%; 
  
 }
 .imagem-topo2{
@@ -28,26 +29,28 @@ body{
 
 
 .container-envelope {
-  position: relative;
-  width: 90%;         
+  position: relative;    
+  width: 90%;           
   max-width: 340px;      
-  margin: 0 auto;        
+  margin: 0 auto;     
 }
 
 .envelope {
-  width: 100%;           
+  width: 100%;          
   height: auto;          
   display: block;
 }
 
 .selo {
-  position: absolute;  
-  width: 25%;          
+  position: absolute;    
+  width: 25%;            
   height: auto;
-  top: 49%;              
+  top: 49%;         
   left: 50%;
+  
+ 
   transform: translate(-50%, -50%); 
-  z-index: 1;   
+  z-index: 1;          
 }
 
 .galho{
@@ -62,12 +65,21 @@ body{
   position: absolute;
   transform: rotate(250deg);
   top: 35%;
-  left: 80%;
+  left: 90%;
   
 }
-.fim{
-  position: absolute;
-  top: 50%;
+.container-rodape {
+  position: relative;    
+  width: 100%;           
+  max-width: 100%;     
+      
+
+}
+.flor3{
+  position: absolute; 
+  top: -50%;
   left: 0%;
+  width: 100%; 
+
 }
 
