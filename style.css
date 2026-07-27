@@ -1,85 +1,49 @@
-body{
-    background-image: url(test/fundo.jfif);
-  text-align: center;
+body {
+    min-height: 100vh;
+    background-image: url("image/fundomagico.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.topo{
-  position: relative;
 
+@media (max-width: 768px) {
+    body {
+        background-position: right center;
+    }
 }
 
-.imagem-fundo{
- display: block;
-  width: 100%;
+.centro_envelope{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.coroa{
+    width: 200px;
+    max-width: 80%;
+    margin-bottom: -300px;   /* distância da coroa para o envelope */
    
-  
 }
 
-.imagem-topo{
-  position: absolute;
-  top: 0%;  
-  left: -20%; 
- 
-}
-.imagem-topo2{
-  position: absolute;
-  top: 0%;   
-  left: 5%;  
- 
+.envelope{
+    width: 1300px;
+    max-width: 150vw;
 }
 
-
-.container-envelope {
-  position: relative;    
-  width: 90%;           
-  max-width: 340px;      
-  margin: 0 auto;     
+.selo{
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    top: 73%;              /* ajuste fino do selo */
+    transform: translate(-50%, -150%);
 }
 
-.envelope {
-  width: 100%;          
-  height: auto;          
-  display: block;
-}
-
-.selo {
-  position: absolute;    
-  width: 25%;            
-  height: auto;
-  top: 49%;         
-  left: 50%;
-  
- 
-  transform: translate(-50%, -50%); 
-  z-index: 1;          
-}
-
-.galho{
-  position: absolute;
-  transform: rotate(50deg);
-  top: 38%;
-  left: -10%;
-  
-}
-
-.galho2{
-  position: absolute;
-  transform: rotate(250deg);
-  top: 35%;
-  left: 90%;
-  
-}
 .container-rodape {
   position: relative;    
   width: 100%;           
   max-width: 100%;     
-      
-
 }
-.flor3{
-  position: absolute; 
-  top: -50%;
-  left: 0%;
-  width: 100%; 
 
-}
 

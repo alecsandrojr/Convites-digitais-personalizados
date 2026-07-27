@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    background-image: url("image2/pg2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/* grupo dos 3 botões */
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, 70%);
+}
+
+
+/* cada item */
+.bussula,
+.confirmacao,
+.roupas,
+.presentes {
+    text-align: center;
+}
+
+
+/* tamanho das imagens */
+.opcoes img {
+    width: 60px;
+}
+
+
+/* textos */
+.opcoes h3 {
+    color: gold;
+    font-size: 10px;
+    font-family: 'Georgia', serif;
+    margin-top: -8px;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+.voltar {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    transform: translate(-50%, 500%);
+ }
