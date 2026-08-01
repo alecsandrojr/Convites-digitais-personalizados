@@ -1,15 +1,42 @@
 body {
     min-height: 100vh;
-    background-image: url("image3/avisos.jpeg");
+    margin: 0;
+    background-image: url("image3/manual.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+}
+@media (max-width: 480px) {
+    body {
+        background-position: center center;
+    }
 }
 
+
+/* botão voltar */
 .voltar {
-    position: absolute;
-    top: 55%;
-    left: 10%;
-    transform: translate(-50%, 500%);
- }
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+
+.voltar img {
+    width: 40px;
+    height: auto;
+}
+
+
+/* ajustes para celulares menores */
+@media (max-width: 480px) {
+
+    .voltar {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .voltar img {
+        width: 35px;
+    }
+
+}
