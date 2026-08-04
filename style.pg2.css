@@ -1,10 +1,12 @@
 body {
     min-height: 100vh;
     margin: 0;
-    background-image: url("image2/19_redimensionada_1080x1920.png");
-    background-size: cover;
-    background-position: center;
+
+    background-image: url("image2/19.png");
     background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    background-color: #dff4fb;
 }
 @media (max-width: 480px) {
     body {
