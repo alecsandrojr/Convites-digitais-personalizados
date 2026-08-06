@@ -2,11 +2,13 @@ body {
     min-height: 100vh;
     margin: 0;
 
-    background-image: url("image2/19.png");
+    background-image: url("image2/genisis.png");
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% auto;
-    background-color: #dff4fb;
+    background-position: center top;
+    background-size: cover;
+    background-color: #92daf2;
+
+    overflow-x: hidden;
 }
 @media (max-width: 480px) {
     body {
